@@ -12,7 +12,7 @@ import aqi_finder
 import station_finder
 import distance_finder
 
-#API = 'dedb41dcca3b033aa93f125ab017b98883cf51fe'
+#API = 'dedb41dc*********f51fe'
 
 if __name__ =='__main__':
     
