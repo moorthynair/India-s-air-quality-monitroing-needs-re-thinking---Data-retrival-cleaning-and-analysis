@@ -16,7 +16,7 @@ def header():
     print()
     print(f"Date & Time of Run:     {dt.now().strftime('%d/%m/%Y %H:%M:%S')}")
     print("Contact:                morthymnair@yahoo.in")
-    print("Acknolwedgement:        World Air Quality Index (https://waqi.info/)")
+    print("Acknowledgement:        World Air Quality Index (https://waqi.info/)")
     print("                        Central Pollution Control Board (https://cpcb.nic.in/)")                       
     print()
     print("-*-" * 28)
