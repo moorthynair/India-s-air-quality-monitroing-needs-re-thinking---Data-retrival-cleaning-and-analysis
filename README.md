@@ -38,5 +38,5 @@ Copyright (c) 2023 Moorthy M Nair [MIT License](https://github.com/moorthynair/N
 #### Acknowledgment
 1. [Central Pollution Control Board](https://cpcb.nic.in/) for providing a) NRT air quality data; b) AQI India scale break point details; c) Potential health impact with respect to individual AQI category
 2. [World Air Quality Index](https://waqi.info/)forum for providing API services to retrieve the NRT AQI information worldwide
-3. hangLeQuoc](https://github.com/ThangLeQuoc/aqi-bot) for providing USEPA AQI break point details
+3. [hangLeQuoc](https://github.com/ThangLeQuoc/aqi-bot) for the USEPA AQI break point details
 4. [uk-air.defra.gov.uk](https://uk-air.defra.gov.uk/assets/documents/reports/cat06/0502160851_Conversion_Factors_Between_ppb_and.pdf) for providing ppm/ppb to micrograms per cubicmeters conversion factors for the pollutants
