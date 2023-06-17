@@ -122,22 +122,25 @@ Display the results
     
 """
     
-def display(output,output2,distance):
+def display(output,output2,distance,health):
     print()
     print('-*-'*28)  
     print()
     print('Findings collected on '+ output['time_of_retreival']+' from the CAAQMS located at '+output['nearest_station'].center(20))  
     print('The CAAQMS and the Point of Interest are '+ str(distance[0].round(2))+' meters apart'.center(10))
     print('**Information is specific to the retreived date & time**'.center(20))
-    print('\n')
+    print()
     print('1. AQI of '+str(math.ceil(output2['max_aqi']))+' has been observed')
     print()
     print('2. '+output2['critical_pollutant'].upper()+' is the critical pollutant')
     print()
-    print('3. The air quality is '+output2['cat'].upper())
+    print('3. The air quality is '+output2['cat'].upper()+ ' and may possess "'+health+'"')
     print()
     print('Summary Table'.center(30))
     print(tabulate(output2['concatenate'], headers = ['Pollutants', 'Concentration', 'AQI','Category'], tablefmt ='grid'))
+    print('Note: The unit for CO is milligrams per cubicmeters and rest are in micrograms per cubicmeters')
+    print()
+    print('Disclaimer: There may be ±5% variation from the actual data due to conversion/rounding errors')
     print()
     print('-*-'*28)
     

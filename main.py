@@ -11,8 +11,9 @@ import initialiser
 import aqi_finder
 import station_finder
 import distance_finder
+import health
 
-#API = 'dedb41dc*********f51fe'
+#API = 'dedb41dcca3b033aa93f125ab017b98883cf51fe'
 
 if __name__ =='__main__':
     
@@ -42,6 +43,10 @@ if __name__ =='__main__':
     
     dist = distance_finder.distancer(args.Lat, args.Lon, st_details['geo'])
    
+   ## Let us assess the impact of pollution on health
+   
+    health_impact = health.health_impact(categorisation['cat'])
+   
    ## Let us now display the results
     
-    aqi_finder.display(st_details,  categorisation, dist)
+    aqi_finder.display(st_details,  categorisation, dist,health_impact)
