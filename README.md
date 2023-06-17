@@ -22,14 +22,14 @@ Use the help function to know the required inputs `python main.py -h`. The outpu
 | **Lon** | Input the Longitude in degrees for your Point of Intreset. You may use google maps to find the exact geo-locations of your POI |
 
 ## Step 3: Run the script on your terminal
-`python main.py 'Enter API' 'Latitude of your POI' 'Longitude of your POI'` <br />
+Enter this command in the terminal `python main.py 'Enter API' 'Latitude of your POI' 'Longitude of your POI'` <br />
 Thr output must be on your terminal screen
 
-### Sample code and output from the terminal
+### Sample run on the terminal
 
-Running this code on terminal: `python main.py dedb######&&&88######1fe 25.607 85.115` <br /> 
+Provding the command in the terminal: `python main.py dedb######&&&88######1fe 25.607 85.115` <br /> 
 
-### The output: <br />
+and the output as below: <br />
 
-<img width="1323" alt="Screenshot 2023-06-17 at 3 41 07 PM" src="https://github.com/moorthynair/NRT-AQIfinder/assets/83420459/1267a8c4-a02d-47e0-b78b-2ed78c77baea">
+> <img width="1323" alt="Screenshot 2023-06-17 at 3 41 07 PM" src="https://github.com/moorthynair/NRT-AQIfinder/assets/83420459/1267a8c4-a02d-47e0-b78b-2ed78c77baea">
 
