@@ -29,7 +29,7 @@ Thr output must be on your terminal screen
 
 Provding the command in the terminal: `python main.py dedb######&&&88######1fe 25.607 85.115` <br /> 
 
-and the output as below: <br />
+#### Output: <br />
 
 > <img width="1323" alt="Screenshot 2023-06-17 at 3 41 07 PM" src="https://github.com/moorthynair/NRT-AQIfinder/assets/83420459/1267a8c4-a02d-47e0-b78b-2ed78c77baea">
 
