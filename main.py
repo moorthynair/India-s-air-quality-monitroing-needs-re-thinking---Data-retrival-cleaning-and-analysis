@@ -13,8 +13,7 @@ import station_finder
 import distance_finder
 import health
 
-#API = 'dedb41dcca3b033aa93f125ab017b98883cf51fe'
-
+## Let us begin
 if __name__ =='__main__':
     
     parser = argparse.ArgumentParser()
