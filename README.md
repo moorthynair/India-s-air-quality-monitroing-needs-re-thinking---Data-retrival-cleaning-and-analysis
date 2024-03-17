@@ -9,7 +9,7 @@ Open the terminal and paste `git clone https://github.com/moorthynair/NRT-AQIfin
 
 ## Step 2: Install the requirements
 Move to the directory where the repo is downloaded `cd NRT-AQIfinder` <br />
-Install the requirements `pip install requirement_aqi.txt`
+Install the requirements `pip install -r requirement_aqi.txt`
 
 ## Step 2: Knowing the input requirements
 Use the help function to know the required inputs `python main.py -h`. The output below must be displayed in your terminal <br />
